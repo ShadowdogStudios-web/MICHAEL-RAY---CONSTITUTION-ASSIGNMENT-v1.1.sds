@@ -99,6 +99,14 @@ h2{font-family:Georgia,serif;font-weight:700;font-size:clamp(28px,4.6vw,46px);li
 .amd-num{position:absolute;top:-15px;left:18px;width:36px;height:36px;border-radius:50%;background:var(--rust);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:16px}
 .amd-card svg{width:48px;height:48px;margin:4px 0 8px;display:block}
 .duoread{font-size:clamp(16px,1.85vw,21px);line-height:1.5;color:var(--body);margin:0;font-weight:500}
+
+/* control-bar regroup: counter fills left; Speak-to-me + ‹ ‹ › cluster on the right near the next button */
+.bar{gap:10px}
+.bar #count{order:1}
+.bar .hint{order:2}
+.bar #readbtn{order:3;margin-left:auto}
+.bar #prev{order:4}
+.bar #next{order:5}
 </style></head>
 <body>
 <div class="stage">
